@@ -27,11 +27,31 @@ export const metadata: Metadata = {
     "Portfolio",
   ],
   authors: [{ name: "Sunil Kumar Patidar" }],
+  icons: {
+    icon: [
+      { url: "/sunil1.webp", type: "image/webp" },
+    ],
+    shortcut: "/sunil1.webp",
+    apple: "/sunil1.webp",
+  },
   openGraph: {
     title: "Sunil Kumar Patidar — Frontend Engineer",
     description:
       "Frontend engineer at Primathon — building fast, accessible e-commerce experiences with Next.js.",
     type: "website",
+    images: [
+      {
+        url: "/sunil1.webp",
+        alt: "Sunil Kumar Patidar — Frontend Engineer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary",
+    title: "Sunil Kumar Patidar — Frontend Engineer",
+    description:
+      "Frontend engineer at Primathon — building fast, accessible e-commerce experiences with Next.js.",
+    images: ["/sunil1.webp"],
   },
 };
 
