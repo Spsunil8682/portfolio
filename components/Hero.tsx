@@ -105,7 +105,7 @@ export default function Hero() {
               <span className="relative">Hire me</span>
             </a>
             <a
-              href="/resume/sunil_Sde.pdf"
+              href="/resume/Sunil_Frontend_Resume.pdf"
               target="_blank"
               rel="noreferrer"
               download
