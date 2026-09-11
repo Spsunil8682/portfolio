@@ -48,7 +48,7 @@ export default function Skills() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-          className="glow-card rounded-2xl p-6 md:p-8"
+          className="glow-card rounded-2xl p-6 md:p-8 lg:sticky lg:top-24 lg:self-start"
         >
           <h3 className="mb-6 text-sm font-semibold uppercase tracking-widest text-[color:var(--accent-2)]">
             Proficiency

@@ -63,7 +63,7 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
       viewport={{ once: true, margin: "-60px" }}
       transition={{ duration: 0.45, delay: (index % 6) * 0.06 }}
       whileHover={{ y: -6 }}
-      className="group relative overflow-hidden rounded-2xl glow-card transition hover:border-[color:var(--accent)]/40"
+      className="group relative flex h-full flex-col overflow-hidden rounded-2xl glow-card transition hover:border-[color:var(--accent)]/40"
     >
       <div className={`relative aspect-[16/10] overflow-hidden bg-gradient-to-br ${project.accent}`}>
         <div className="absolute inset-0 opacity-20 grid-bg" />
@@ -84,10 +84,10 @@ function ProjectCard({ project, index }: { project: Project; index: number }) {
         </motion.span>
       </div>
 
-      <div className="p-5">
+      <div className="flex flex-1 flex-col p-5">
         <h3 className="text-lg font-bold text-foreground">{project.title}</h3>
         <p className="mt-1.5 line-clamp-3 text-sm text-[color:var(--muted)]">{project.description}</p>
-        <div className="mt-4 flex flex-wrap gap-1.5">
+        <div className="mt-auto flex flex-wrap gap-1.5 pt-4">
           {project.stack.map((s) => (
             <span
               key={s}
