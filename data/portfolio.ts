@@ -136,6 +136,31 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    title: "Samrath",
+    tag: "Product",
+    description:
+      "Full-stack booking website with an admin-only owner dashboard. Postgres-enforced no-double-booking rule, Row Level Security, validated booking forms, an ffmpeg pipeline that converts iPhone videos into web-ready clips and thumbnails, WhatsApp booking links and email alerts.",
+    stack: [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "PostgreSQL",
+      "Supabase Auth",
+      "Row Level Security",
+      "Zod",
+      "React Hook Form",
+      "ffmpeg",
+      "Cloudinary",
+      "Resend",
+      "Vitest",
+      "Netlify",
+    ],
+    link: "https://heysamrath.netlify.app/",
+    accent: "from-indigo-500 to-sky-500",
+  },
+  {
     title: "Aqualogica",
     tag: "E-commerce",
     description:
